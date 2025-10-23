@@ -1,4 +1,4 @@
-package cn.tofucat.bomb.component;
+package cn.tofucat.bomb.components;
 
 import com.badlogic.ashley.core.ComponentMapper;
 
@@ -9,5 +9,5 @@ import com.badlogic.ashley.core.ComponentMapper;
  */
 public class Mappers {
     public static final ComponentMapper<PlayerComponent> PLAYER_COMPONENT_MAPPER = ComponentMapper.getFor(PlayerComponent.class);
-    public static final ComponentMapper<MovementComponent> MOVEMENT_COMPONENT_MAPPER = ComponentMapper.getFor(MovementComponent.class);
+    public static final ComponentMapper<PositionComponent> MOVEMENT_COMPONENT_MAPPER = ComponentMapper.getFor(PositionComponent.class);
 }

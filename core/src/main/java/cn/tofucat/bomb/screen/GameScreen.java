@@ -1,6 +1,6 @@
 package cn.tofucat.bomb.screen;
 
-import cn.tofucat.bomb.component.*;
+import cn.tofucat.bomb.components.*;
 import cn.tofucat.bomb.system.*;
 import com.badlogic.ashley.core.Engine;
 import com.badlogic.ashley.core.Entity;
@@ -50,7 +50,7 @@ public class GameScreen extends ScreenAdapter {
         player.add(new IdentityComponent("豆腐猫"));
         player.add(new HealthComponent(1, 1));
         player.add(new StatusComponent());
-        player.add(new MovementComponent(100, 100, 10,100));
+        player.add(new PositionComponent(100, 100, 10,100));
         player.add(new PlayerComponent());
         return player;
     }

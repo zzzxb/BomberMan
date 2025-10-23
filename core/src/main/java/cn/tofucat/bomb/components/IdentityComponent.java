@@ -1,4 +1,4 @@
-package cn.tofucat.bomb.component;
+package cn.tofucat.bomb.components;
 
 import com.badlogic.ashley.core.Component;
 
