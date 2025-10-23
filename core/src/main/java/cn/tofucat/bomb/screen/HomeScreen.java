@@ -33,7 +33,7 @@ public class HomeScreen extends ScreenAdapter {
         }
 
         batch.begin();
-        batch.draw(texture, 0, 0);
+        batch.draw(texture, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         batch.end();
     }
 
